@@ -1,5 +1,6 @@
 // Style
 import { createGlobalStyle } from "styled-components"
+import theme from "./theme"
 
 export default createGlobalStyle`
   * {
@@ -9,7 +10,7 @@ export default createGlobalStyle`
   }
 
   body {
-    background: #121214;
-    color: #e1e116;
+    background: ${props => props.theme.colors.background};
+    color: ${props => props.theme.colors.text}
   }
-`;
+`
