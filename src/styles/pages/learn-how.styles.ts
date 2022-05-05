@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Container = styled.div `
-display: flex;
+display: none;
 width: 100%;
 background-image: url('second.background.svg');
 background-repeat: repeat-y;
@@ -9,6 +9,10 @@ align-items: center;
 justify-content: center;
 height: 1560px;
 flex-direction: column;
+
+@media (min-width: 1024px) {
+  display: flex;
+}
 
 .video {
   display: flex;

@@ -10,6 +10,7 @@ import Navbar from '../components/navbar/navbar.component';
 import Header from '../components/header/header.component';
 import LearnHow from '../components/learn-how/learn-how.component';
 import Footer from '../components/footer/footer.component';
+import Brand from '../components/brand/brand.component';
 
 const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
   return (
@@ -19,8 +20,9 @@ const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
       <Navbar/>
       <Header/>
       <LearnHow/>
-      <Footer/>
-    </ThemeProvider>
+      <Brand/>
+      <Footer />
+      </ThemeProvider>
   );
 }
 
