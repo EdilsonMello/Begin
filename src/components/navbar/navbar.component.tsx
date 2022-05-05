@@ -30,7 +30,7 @@ const Navbar: React.FC = () => {
             <span/>
           </div>
           <div>
-            <Link href=''>
+            <Link href='partners'>
               <a>PARTNERS</a>
             </Link>
             <span/>
@@ -40,7 +40,6 @@ const Navbar: React.FC = () => {
           <p>SIGN UP FREE</p>
         </button>
       </div>
-
     </Container>
   )
 }

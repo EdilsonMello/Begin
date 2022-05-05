@@ -17,33 +17,37 @@ const Footer: React.FC = () => {
           <p>NinjaMail</p>
         </div>
         <div className="options">
-          <div className="sections">
-            <p>Features</p>
-            <p>Pricing</p>
-            <p>Services</p>
-            <p>Partners</p>
+          <div className="first">
+            <div className="sections">
+              <p>Features</p>
+              <p>Pricing</p>
+              <p>Services</p>
+              <p>Partners</p>
+            </div>
+            <div className="sections">
+              <p>About Us</p>
+              <p>Tutorials</p>
+              <p>Resources</p>
+              <p>Help Center</p>
+              <p>Templates</p>
+              <p>Case Studies</p>
+            </div>
           </div>
-          <div className="sections">
-            <p>About Us</p>
-            <p>Tutorials</p>
-            <p>Resources</p>
-            <p>Help Center</p>
-            <p>Templates</p>
-            <p>Case Studies</p>
+          <div className="second">
+              <div className="sections">
+                <p>Medium</p>
+                <p>Twitter</p>
+                <p>Facebook</p>
+                <p>Instagram</p>
+                <p>LinkedIn</p>
+              </div>
+              <div className="sections">
+                <p>Contact Us</p>
+                <p>Slack</p>
+                <p>Jobs</p>
+              </div>
+            </div>
           </div>
-          <div className="sections">
-            <p>Medium</p>
-            <p>Twitter</p>
-            <p>Facebook</p>
-            <p>Instagram</p>
-            <p>LinkedIn</p>
-          </div>
-          <div className="sections">
-            <p>Contact Us</p>
-            <p>Slack</p>
-            <p>Jobs</p>
-          </div>
-        </div>
       </div>
       <span/>
       <div className="terms">
