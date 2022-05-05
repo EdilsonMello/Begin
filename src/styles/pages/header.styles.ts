@@ -2,13 +2,12 @@ import styled from 'styled-components'
 
 export const Container = styled.div `
 display: flex;
+height: 582px;
 width: 100%;
-height: 100%;
-max-height: 582px;
 background-image: url('background.svg');
+background-repeat: repeat-y;
 align-items: center;
 justify-content: center;
-position:absolute;
 
 .content {
   display: flex;
