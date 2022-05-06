@@ -6,6 +6,8 @@ import { AppProps } from 'next/app';
 import GlobalStyle from '../styles/global'
 import { ThemeProvider } from 'styled-components';
 import theme from '../styles/theme';
+
+// Components
 import Navbar from '../components/navbar/navbar.component';
 import Header from '../components/header/header.component';
 import LearnHow from '../components/learn-how/learn-how.component';
@@ -25,10 +27,10 @@ const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
       <div id="services">
         <LearnHow/>
       </div>
-      <JoinList/>
       <div id="partners">
-        <Brand/>
+      <JoinList/>
       </div>
+        <Brand/>
       <div id="pricing">
         <Footer />
       </div>

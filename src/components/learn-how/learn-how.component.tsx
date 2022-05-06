@@ -1,4 +1,7 @@
+// Dependencies
 import React from 'react'
+
+// Styles
 import { Container } from '../../styles/pages/learn-how.styles'
 
 const LearnHow: React.FC = () => {

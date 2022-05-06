@@ -1,4 +1,7 @@
+// Competencies
 import React from 'react'
+
+// Styles
 import { Container } from '../../styles/pages/header.styles'
 
 const Header: React.FC = () => {

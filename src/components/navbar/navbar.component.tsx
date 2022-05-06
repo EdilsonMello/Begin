@@ -1,8 +1,12 @@
+// Dependencies
 import React from 'react'
-import Mail from '../../assets/mail.svg'
-import { Container } from '../../styles/pages/navbar.style'
 import Link from 'next/link'
-// import { Container } from './styles';
+
+// Assets
+import Mail from '../../assets/mail.svg'
+
+// Styles
+import { Container } from '../../styles/pages/navbar.style'
 
 const Navbar: React.FC = () => {
   return (
