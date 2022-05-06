@@ -11,6 +11,7 @@ import Header from '../components/header/header.component';
 import LearnHow from '../components/learn-how/learn-how.component';
 import Footer from '../components/footer/footer.component';
 import Brand from '../components/brand/brand.component';
+import JoinList from '../components/join-list/join-lis.component';
 
 const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
   return (
@@ -24,6 +25,7 @@ const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
       <div id="services">
         <LearnHow/>
       </div>
+      <JoinList/>
       <div id="partners">
         <Brand/>
       </div>
