@@ -1,5 +1,8 @@
-import React from 'react';
-import { Container } from '../../styles/pages/brand.styles';
+// Dependencies
+import React from 'react'
+
+// Style
+import { Container } from '../../styles/pages/brand.styles'
 
 const Brand: React.FC = () => {
   return (

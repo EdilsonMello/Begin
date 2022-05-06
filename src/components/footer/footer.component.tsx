@@ -1,4 +1,7 @@
+// Dependencies
 import React from 'react'
+
+// Styles
 import { Container } from '../../styles/pages/footer.styles'
 
 const Footer: React.FC = () => {
