@@ -1,6 +1,5 @@
 import React from 'react'
 import { Container } from '../../styles/pages/footer.styles'
-import Mail from '../../assets/mail.svg'
 
 const Footer: React.FC = () => {
   return (
@@ -13,7 +12,7 @@ const Footer: React.FC = () => {
       </div>
       <div className="content">
         <div className="logo">
-          <Mail/>
+          <span/>
           <p>NinjaMail</p>
         </div>
         <div className="options">
