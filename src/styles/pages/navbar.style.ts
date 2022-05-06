@@ -5,16 +5,7 @@ display: flex;
 width: 100%;
 flex-direction: row;
 align-items: center;
-padding: 0 5px;
-
-@media (min-width: 768px) {
-  padding: 15px 20px 0 20px;
-}
-
-
-@media (min-width: 1440px) {
-  padding: 28px 100px 0 100px;
-}
+height: 50px;
 
 svg {
   width: 100px;
@@ -43,6 +34,20 @@ p {
   flex-direction: row;
   align-items: center;
   width: 100%;
+  position: fixed;
+  z-index: 10;
+  background: #fff;
+  padding: 0 5px;
+
+  @media (min-width: 768px) {
+    padding: 15px 20px 0 20px;
+  }
+
+
+  @media (min-width: 1440px) {
+    padding: 28px 100px 0 100px;
+  }
+
 }
 
 .links {

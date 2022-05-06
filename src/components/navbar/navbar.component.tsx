@@ -12,25 +12,25 @@ const Navbar: React.FC = () => {
         <p>NinjaMail</p>
         <div className="links">
           <div>
-            <Link href=''>
+            <Link href='#features'>
               <a>FEATURES</a>
             </Link>
             <span/>
           </div>
           <div>
-            <Link href=''>
+            <Link href='#pricing'>
               <a>PRICING</a>
             </Link>
             <span/>
           </div>
           <div>
-            <Link href=''>
+            <Link href='#services'>
               <a>SERVICES</a>
             </Link>
             <span/>
           </div>
           <div>
-            <Link href='partners'>
+            <Link href='#partners'>
               <a>PARTNERS</a>
             </Link>
             <span/>
