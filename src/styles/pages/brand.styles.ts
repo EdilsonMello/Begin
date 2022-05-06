@@ -5,27 +5,34 @@ display: flex;
 width: 100%;
 flex-direction: column;
 align-items: center;
-margin-bottom: 60px;
+margin-bottom: 70px;
 
 @media (min-width: 1440px) {
   margin-bottom: 143px;
 }
 
 h1 {
-  width: 400px;
+  text-align: center;
+  width: 250px;
   font-family: 'Playfair Display';
   font-style: normal;
   font-weight: 900;
-  font-size: 44px;
-  line-height: 48px;
-  text-align: center;
+  font-size: 26px;
+  line-height: 36px;
   color: #000000;
+
+  @media (min-width: 1440px) {
+    width: 360px;
+    font-size: 44px;
+    line-height: 48px;
+    text-align: center;
+  }
 }
 
 .brands {
   display: flex;
   justify-content: space-between;
-  margin-top: 60px;
+  margin-top: 30px;
   flex-direction: column;
   width: 281px;
   align-items: center;
@@ -44,13 +51,15 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 100%;
 
     @media (min-width: 768px) {
       justify-content: space-around;
-      }
+      width: auto;
+    }
 
     > span {
-      margin: 0 0 25px 25px;
+      margin: 0 45px 25px 0px;
 
       @media (min-width: 768px) {
         margin: 0 35px 0 0;
