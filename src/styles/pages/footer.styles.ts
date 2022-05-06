@@ -100,8 +100,15 @@ flex-direction: column;
     @media (min-width: 1440px) {
       margin-right: 200px;
     }
+
+    > span {
+      background-image: url('mail-2.svg');
+      width: 50px;
+      height: 30px;
+      background-color: #fff;
+    }
     > p {
-      margin-top: 15px;
+      margin-top: 5px;
       width: 80px;
       height: 31px;
       font-family: 'Raleway';
@@ -159,7 +166,11 @@ flex-direction: column;
         color: #000000;
         font-size: 12px;
         line-height: 14px;
-        margin-left: 40px;
+        margin: 0 60px 0 15px;
+
+        @media (min-width: 768px) {
+          margin: 0 40px 0 0px;
+        }
 
         @media (min-width: 1440px) {
           margin-top: 10px;
