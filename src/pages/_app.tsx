@@ -17,11 +17,19 @@ const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
     <ThemeProvider theme={theme}>
       <Component {...pageProps} />
       <GlobalStyle />
-      <Navbar/>
+      <div id="features">
+        <Navbar/>
+      </div>
       <Header/>
-      <LearnHow/>
-      <Brand/>
-      <Footer />
+      <div id="services">
+        <LearnHow/>
+      </div>
+      <div id="partners">
+        <Brand/>
+      </div>
+      <div id="pricing">
+        <Footer />
+      </div>
       </ThemeProvider>
   );
 }
